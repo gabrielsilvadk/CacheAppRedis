@@ -1,6 +1,6 @@
 ﻿using StackExchange.Redis;
 
-string connectionString = "";
+string connectionString = "git ";
 
 using (var cache = ConnectionMultiplexer.Connect(connectionString))
 {
