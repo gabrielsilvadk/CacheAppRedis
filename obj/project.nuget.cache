@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "TqIzFLwBng8=",
+  "success": true,
+  "projectFilePath": "D:\\Study\\Projects\\CacheAppRedis\\CacheAppRedis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\stackexchange.redis\\2.6.96\\stackexchange.redis.2.6.96.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CacheAppRedis depends on StackExchange.Redis (>= 2.6.94) but StackExchange.Redis 2.6.94 was not found. StackExchange.Redis 2.6.96 was resolved instead.",
+      "libraryId": "StackExchange.Redis",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
